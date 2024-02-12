@@ -7,3 +7,8 @@ body{
     border-radius: 20px;
     padding: 10;
 }
+.btn-secondary {
+    color: #fff;
+    background-color: #043379;
+    border-color: #094bac;
+  }
