@@ -1,3 +1,7 @@
+document.getElementById("formGroupExampleInput").value = 0;
+document.getElementById("formGroupExampleInput2").value = 0;
+document.getElementById("formGroupExampleInput3").value = 0;
+
 function calcular(){
     let base = parseInt(document.getElementById("formGroupExampleInput").value)
     let altura = parseInt(document.getElementById("formGroupExampleInput2").value)
