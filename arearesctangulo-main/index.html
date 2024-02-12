@@ -10,21 +10,28 @@
 <body>
     <section class="container mt-5 mx-auto">
         <div class="row">
-            <div class="col-4 mx-auto content-forms">
+            <div class="col-4 mx-auto content-forms p-5">
                 <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Ingrese la Base</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                    <label for="formGroupExampleInput" class="form-label text-white">Ingrese la Base</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
                   </div>
                   <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Ingrese la Altura</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                    <label for="formGroupExampleInput2" class="form-label text-white">Ingrese la Altura</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
                   </div>
+
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label text-white">Resultado</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput3" readonly>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-sm" onclick="calcular()">Calcular</button>
+                  <button type="button" class="btn btn-secondary btn-sm" onclick="limpiar()">Limpiar</button>
             </div>
         </div>
     </section>
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
